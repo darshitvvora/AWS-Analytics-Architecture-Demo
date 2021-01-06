@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  color: #222;
+  font-size: 15px; 
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.products {
+  height: 400px;
+  width: 400px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #d9ffb3;
+  border: 1px solid #222;
+  margin: 2px;
+}
+
+.viewCount {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product button {
+  color: green;
+  background-color: #0000;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pin{
+  margin-top: 10vh;
+}
